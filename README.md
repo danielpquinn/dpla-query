@@ -1,4 +1,4 @@
-light-site
-==========
+Digital Public Library of America Query Tool
+============================================
 
-Lightweight Backbone Static Site Template
+Simple dpla api query tool built during metadatathon 2014
