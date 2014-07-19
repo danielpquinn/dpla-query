@@ -1,0 +1,12 @@
+<% _.each(items, function (item) { %>
+  <div class="row well">
+    <div class="col-md-3">
+      <a href="<%=item.isShownAt%>" taget="_blank"><img width="100%" class="thumbnail" src="<%=item.object%>"></a>
+    </div>
+    <div class="col-md-9">
+      <p><strong><%=item.sourceResource.title%></strong></p>
+      <p><strong><%=item.originalRecord.title%></strong></p>
+      <p><%=item.sourceResource.description%></p>
+    </div>
+  </div>
+<% }); %>
